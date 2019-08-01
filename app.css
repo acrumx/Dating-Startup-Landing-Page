@@ -1,0 +1,38 @@
+html {
+	height: 100%;
+}
+
+body {
+	background:url(https://images.unsplash.com/photo-1551318461-fc0b2cf848d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80) no-repeat;
+	background-size: cover;
+	font-family: 'Crimson Pro, serif';
+/*	background-position: center;*/
+	color: white;
+}
+
+#content {
+	text-align: center;
+	padding-top: 25%;
+	text-shadow: 0px 4px 3px rgba(10, 0, 0, 0.4),
+				 0px 8px 13px rgba(10, 0, 0, 0.1),
+				 0px 18px 23px rgba(10, 0, 0, 0.1);
+}
+
+/*	text-shadow: 0px 4px 3px red,
+				 0px 8px 13px blue,
+				 0px 18px 23px black;*/
+
+h1 {
+	font-weight: 800;
+	font-size: 5em;
+}
+
+hr { 
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0, 0, 0, 2);
+}
+
+.fa-heart {
+	color: red;
+}
